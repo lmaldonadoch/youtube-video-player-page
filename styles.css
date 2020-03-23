@@ -14,12 +14,28 @@ body {
 
 .header {
   height: 10rem;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
   background-color: teal;
 }
 
+.buttons {
+    columns: 0/1;
+}
+
+.search {
+    columns: 1/2;
+    border: #f9f9f9 solid 2px;
+}
+
+.profile {
+    columns: 2/3;
+    justify-self: end;
+    border: #9c1e1e solid 2px;
+}
+
 img {
-  width: 20%;
-  height: 10%;
+  width: 100%;
+  height: 100%;
+  border: #f9f9f9 solid 2px;
 }
