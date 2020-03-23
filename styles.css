@@ -13,6 +13,15 @@ body {
   padding: 3rem;
 }
 
+.leftside {
+  float: left;
+}
+
+.rightside {
+  float: right;
+  margin: 50rem 0 0 1rem;
+}
+
 .header {
   height: 5rem;
   display: grid;
@@ -70,18 +79,22 @@ img {
 .icon1 {
   fill: grey;
 }
+
 .homepage {
 }
+
 .real {
   margin-top: 5rem;
   margin-left: 16rem;
   width: 65%;
   padding: 0 auto;
 }
+
 .title {
   font-size: 2rem;
   margin-top: 1rem;
 }
+
 .data {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -109,19 +122,27 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
 .data__views {
   margin-right: 0.5rem;
 }
+
 .description {
   margin-top: 2rem;
   margin-left: 20rem;
 }
+
 .name_logo {
   background-color: teal;
   font-size: 1.4rem;
   border-radius:200px;
   padding: 1rem;
 }
-.channel_name {
-  margin-right: 10rem;
+
+.subscriber__group {
+  margin-left: 10rem;
 }
+
+
+
+
