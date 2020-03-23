@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: #f9f9f9;
+  padding: 3rem;
 }
 
 .header {
@@ -22,23 +23,45 @@ body {
 .buttons {
   columns: 0/1;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .search {
   columns: 1/2;
-  border: #f9f9f9 solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile {
   columns: 2/3;
-  border: #9c1e1e solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 img {
-  margin: 5px 0 0 0;
-  width: 40%;
-  height: 60%;
-  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.search__bar{
+    width: 70%;
+    max-width: 900px;
+    height: 60%;
+}
+
+.hamburger, .account {
+    background: #fff;
+    border: none;
+    font-size: 2rem;
+}
+
+.magnifying_button {
+    height: 60%;
+    width: 6rem;
+    border: rgb(161, 16, 16) solid 2px;
+    background: #F8F8F8;
+    color: rgb(153, 149, 149);
 }
