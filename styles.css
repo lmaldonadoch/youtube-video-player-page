@@ -46,22 +46,48 @@ img {
   height: 100%;
 }
 
-.search__bar{
-    width: 70%;
-    max-width: 900px;
-    height: 60%;
+.search__bar {
+  width: 70%;
+  max-width: 900px;
+  height: 60%;
 }
 
-.hamburger, .account {
-    background: #fff;
-    border: none;
-    font-size: 2rem;
+.hamburger,
+.account {
+  background: #fff;
+  border: none;
+  font-size: 2rem;
 }
 
 .magnifying_button {
-    height: 60%;
-    width: 6rem;
-    border: rgb(161, 16, 16) solid 2px;
-    background: #F8F8F8;
-    color: rgb(153, 149, 149);
+  height: 60%;
+  width: 6rem;
+  border: rgb(161, 16, 16) solid 2px;
+  background: #f8f8f8;
+  color: rgb(153, 149, 149);
+}
+
+.icon1 {
+  fill: grey;
+}
+.homepage {
+}
+.real {
+  margin-top: 5rem;
+  margin-left: 16rem;
+  width: 60%;
+}
+.title {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.data {
+  display: flex;
+  font-size: 1.4rem;
+  color: grey;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+.data__views {
+  margin-right: 0.5rem;
 }
