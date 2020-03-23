@@ -76,6 +76,7 @@ img {
   margin-top: 5rem;
   margin-left: 16rem;
   width: 65%;
+  padding: 0 auto;
 }
 .title {
   font-size: 2rem;
@@ -84,10 +85,12 @@ img {
 .data {
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: 50px 50px;
+  /* grid-template-rows: 50px 50px; */
   font-size: 1.4rem;
   color: grey;
   margin-top: 1rem;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1rem;
 }
 
 .title {
@@ -95,7 +98,7 @@ img {
   grid-row: 0/1;
 }
 
-.data__stats{
+.data__stats {
   columns: 0/1;
   grid-row: 1/2;
 }
@@ -108,4 +111,17 @@ img {
 }
 .data__views {
   margin-right: 0.5rem;
+}
+.description {
+  margin-top: 2rem;
+  margin-left: 20rem;
+}
+.name_logo {
+  background-color: teal;
+  font-size: 1.4rem;
+  border-radius:200px;
+  padding: 1rem;
+}
+.channel_name {
+  margin-right: 10rem;
 }
