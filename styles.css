@@ -198,9 +198,10 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 .rightside__option {
-  flex: 1;
-  margin-left: 3rem;
+  font-size: 1.5rem;
+  /*margin-left: 3rem;*/
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
@@ -208,4 +209,35 @@ img {
 
 .toggle {
   margin-right: 6rem;
+}
+
+.video__suggestion{
+  margin-top: .5rem;
+  width: 20rem;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.video__image{
+  columns: 0/1;
+}
+
+.video__description{
+  columns: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+
+.video__header{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: .5rem;
+  margin-top: .7rem;
+}
+
+.video__maker{
+  font-size: 1.3rem;
+  color: gray;
+  line-height: 1.5rem;
 }
