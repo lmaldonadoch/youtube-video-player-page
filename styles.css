@@ -10,7 +10,6 @@ html {
 
 body {
   background-color: #f9f9f9;
-  padding: 3rem;
   height: 100rem;
 }
 
@@ -20,7 +19,6 @@ body {
 
 .rightside {
   float: right;
-  margin: 50rem 0 0 1rem;
 }
 
 .header {
@@ -31,10 +29,12 @@ body {
 }
 
 .buttons {
+  padding-left: 30px;
   columns: 0/1;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 190px;
 }
 
 .search {
@@ -44,11 +44,25 @@ body {
   align-items: center;
 }
 
+.search__bar {
+  padding-left: 20px;
+  width: 70%;
+  max-width: 600px;
+  height: 60%;
+}
+
+.profile__wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .profile {
+  padding-right: 20px;
   columns: 2/3;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 190px;
 }
 
 img {
@@ -56,17 +70,16 @@ img {
   height: 100%;
 }
 
-.search__bar {
-  width: 70%;
-  max-width: 900px;
-  height: 60%;
-}
-
 .hamburger,
 .account {
   background: #fff;
   border: none;
+  color: gray;
   font-size: 2rem;
+}
+
+.account{
+  font-size: 2.8rem;
 }
 
 .magnifying_button {
