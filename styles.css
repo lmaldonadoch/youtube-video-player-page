@@ -91,7 +91,7 @@ img {
   display: flex;
 }
 
-.real {
+.content__video {
   margin-top: 5rem;
   margin-left: 20rem;
   width: 65%;
@@ -147,7 +147,7 @@ img {
 }
 
 .name_logo {
-  background-color: #689F39;
+  background-color: #689f39;
   font-size: 1.4rem;
   border-radius: 200px;
   padding: 1rem;

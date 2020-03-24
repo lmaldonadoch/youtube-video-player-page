@@ -14,9 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube</title>
   </head>
-  
+
   <body>
-    
     <main class="pagewrapper">
       <nav class="header">
         <section class="buttons">
@@ -29,13 +28,13 @@
           </a>
         </section>
 
-        <section class="search">
-          <input type="text" class="search__bar" placeholder="SEARCH" />
+        <form action="#" class="search">
+          <input type="text" class="search__bar" placeholder="Search" />
 
           <button class="magnifying_button">
             <i class="fas fa-search"></i>
           </button>
-        </section>
+        </form>
         <section class="profile__wrapper">
           <div class="profile">
             <svg
@@ -92,7 +91,7 @@
       </nav>
       <section class="leftside">
         <main class="homepage">
-          <div class="real">
+          <div class="content__video">
             <div class="video">
               <iframe
                 width="1100"
@@ -130,7 +129,7 @@
                 <span class="button"> <i class="fas fa-ellipsis-h"></i> </span>
               </div>
             </div>
-            <div class="description">
+            <article class="description">
               <div class="subscriber__group">
                 <div class="name_logo">T</div>
                 <div class="channel_name">
@@ -141,7 +140,7 @@
                 </div>
               </div>
               <button class="subscribe">Subscribe</button>
-            </div>
+            </article>
             <div class="details">
               How do you contribute to open source? In this video, I'll describe
               the easiest way to make a simple contribution to an open source
@@ -152,7 +151,7 @@
             </div>
           </div>
 
-          <div class="rightside">
+          <aside class="rightside">
             <div class="rightside__option">
               <span class="up__next">Up Next</span>
               <span class="toggle"> <input type="checkbox" /> </span>
@@ -180,7 +179,7 @@
               </div>
               <div class="video__description">
                 <div class="video__header">
-                  Realtime Chat With Users & Rooms - Socket.io, Node &... 
+                  Realtime Chat With Users & Rooms - Socket.io, Node &...
                 </div>
                 <div class="video__maker">
                   <div class="author">Traversy Media</div>
@@ -241,7 +240,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </aside>
         </main>
       </section>
     </main>
