@@ -13,14 +13,6 @@ body {
   height: 100rem;
 }
 
-.leftside {
-  float: left;
-}
-
-.rightside {
-  float: right;
-}
-
 .header {
   height: 5rem;
   display: grid;
@@ -51,7 +43,7 @@ body {
   height: 60%;
 }
 
-.profile__wrapper{
+.profile__wrapper {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -78,7 +70,7 @@ img {
   font-size: 2rem;
 }
 
-.account{
+.account {
   font-size: 2.8rem;
 }
 
@@ -95,6 +87,7 @@ img {
 }
 
 .homepage {
+  display: flex;
 }
 
 .real {
@@ -102,6 +95,7 @@ img {
   margin-left: 16rem;
   width: 65%;
   padding: 0 auto;
+  flex: 0 0 60%;
 }
 
 .title {
@@ -198,4 +192,20 @@ img {
   text-transform: uppercase;
   font-size: 1.4rem;
   padding: 1rem;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+}
+.rightside__option {
+  flex: 1;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle {
+  margin-right: 6rem;
 }
