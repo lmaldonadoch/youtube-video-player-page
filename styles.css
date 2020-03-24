@@ -93,7 +93,7 @@ img {
 
 .real {
   margin-top: 5rem;
-  margin-left: 10rem;
+  margin-left: 20rem;
   width: 65%;
   padding: 0 auto;
   margin-right: 2rem;
@@ -147,7 +147,7 @@ img {
 }
 
 .name_logo {
-  background-color: teal;
+  background-color: #689F39;
   font-size: 1.4rem;
   border-radius: 200px;
   padding: 1rem;
@@ -186,8 +186,8 @@ img {
   margin-left: 5rem;
   margin-top: 4rem;
   font-size: 1.4rem;
-
   line-height: 1.6;
+  width: 60%;
 }
 
 .show-more {
