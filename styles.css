@@ -11,6 +11,7 @@ html {
 body {
   background-color: #f9f9f9;
   height: 100rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -77,7 +78,7 @@ img {
 .magnifying_button {
   height: 60%;
   width: 6rem;
-  border: rgb(161, 16, 16) solid 2px;
+  border: 1px solid grey;
   background: #f8f8f8;
   color: rgb(153, 149, 149);
 }
@@ -92,9 +93,10 @@ img {
 
 .real {
   margin-top: 5rem;
-  margin-left: 16rem;
+  margin-left: 10rem;
   width: 65%;
   padding: 0 auto;
+  margin-right: 2rem;
   flex: 0 0 60%;
 }
 
@@ -113,7 +115,9 @@ img {
   border-bottom: 1px solid grey;
   padding-bottom: 1rem;
 }
-
+.all__section {
+  width: 125%;
+}
 .title {
   columns: 0/1;
   grid-row: 0/1;
@@ -137,7 +141,7 @@ img {
 
 .description {
   margin-top: 2rem;
-  margin-left: 15rem;
+  margin-left: 0rem;
   display: flex;
   justify-content: space-between;
 }
@@ -167,7 +171,7 @@ img {
   flex-direction: column;
 }
 .subscribe {
-  margin-right: 30rem;
+  margin-right: 0rem;
   background-color: red;
   font-size: 1.2rem;
   font-weight: bold;
@@ -179,11 +183,11 @@ img {
 }
 
 .details {
-  margin-left: 20rem;
+  margin-left: 5rem;
   margin-top: 4rem;
   font-size: 1.4rem;
-  width: 30%;
-  line-height: 1.2;
+
+  line-height: 1.6;
 }
 
 .show-more {
@@ -191,7 +195,8 @@ img {
   color: grey;
   text-transform: uppercase;
   font-size: 1.4rem;
-  padding: 1rem;
+  padding-top: 1rem;
+  font-weight: bold;
 }
 
 .rightside {
@@ -211,32 +216,34 @@ img {
   margin-right: 6rem;
 }
 
-.video__suggestion{
-  margin-top: .5rem;
-  width: 20rem;
-  height: 20rem;
+.video__suggestion {
+  margin-top: 0.5rem;
+  width: 40rem;
+  height: 15rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.video__image{
+.video__image {
   columns: 0/1;
 }
 
-.video__description{
+.video__description {
   columns: 1/2;
   display: flex;
   flex-direction: column;
 }
-
-.video__header{
+.up__next {
+  margin-left: 3rem;
+}
+.video__header {
   font-size: 1.5rem;
   font-weight: bold;
-  padding-bottom: .5rem;
-  margin-top: .7rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.7rem;
 }
 
-.video__maker{
+.video__maker {
   font-size: 1.3rem;
   color: gray;
   line-height: 1.5rem;
