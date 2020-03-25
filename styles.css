@@ -257,7 +257,24 @@ img {
   color: gray;
   line-height: 1.5rem;
 }
+
+.footer{
+  background: #fff;
+}
+
+.footer__buttons{
+  display: flex;
+  padding: 20px;
+  border-bottom: #ECECEC solid 1px;
+}
 .footer__click {
-  width: 10%;
-  height: 8%;
+  width: auto;
+  height: auto;
+  padding-right: 20px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  padding: 20px;
 }
