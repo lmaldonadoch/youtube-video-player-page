@@ -4,7 +4,9 @@ This is a YouTbe website clone without the functionality but with all the elemen
 
 ![screenshot](https://github.com/lmaldonadoch/youtube-video-player-page/blob/features/images/screenshot.png)
 
-Unfortunately our website is not completely responsive so it looked like the image above on a 1920 x 1080 screen.
+## Live version
+
+[Live Version](https://rawcdn.githack.com/lmaldonadoch/youtube-video-player-page/4caa30967d35320a84edb426088ca7ce64d3d45d/index.html)
 
 # Built with
 
