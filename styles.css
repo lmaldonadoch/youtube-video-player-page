@@ -140,7 +140,7 @@ img {
   columns: 1/2;
   grid-row: 1/2;
   display: flex;
-  /* width: 30rem; */
+
   justify-content: space-between;
 }
 
@@ -215,7 +215,7 @@ img {
 
 .rightside__option {
   font-size: 1.5rem;
-  /*margin-left: 3rem;*/
+
   margin-top: 5rem;
   display: flex;
   justify-content: space-between;
@@ -258,14 +258,14 @@ img {
   line-height: 1.5rem;
 }
 
-.footer{
+.footer {
   background: #fff;
 }
 
-.footer__buttons{
+.footer__buttons {
   display: flex;
   padding: 20px;
-  border-bottom: #ECECEC solid 1px;
+  border-bottom: #ececec solid 1px;
 }
 .footer__click {
   width: auto;
@@ -273,8 +273,23 @@ img {
   padding-right: 20px;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   padding: 20px;
+}
+
+.footer__about {
+  padding-right: 1rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: -10px;
+}
+.footer__terms {
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: grey;
+  margin-top: -1rem;
 }
